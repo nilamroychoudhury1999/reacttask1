@@ -11,12 +11,12 @@ function App() {
       {
         name:"Apple Iphone",
         price:120,
-        quantity:1
+        quantity:0
       },
       {
         name:"Samsung Mobile",
         price:120,
-        quantity:1
+        quantity:0
       },
     ]  
   }else{
