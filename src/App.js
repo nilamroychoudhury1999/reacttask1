@@ -89,7 +89,7 @@ function App() {
           <span>Reset</span>
         </div>
         <div className="footer data">
-          <span>$ {totalValue}</span>
+          <span> {totalValue}</span>
         </div>
         <div className="footer pay-now">
           <span>Pay Now</span>
