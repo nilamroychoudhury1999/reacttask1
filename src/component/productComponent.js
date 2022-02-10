@@ -30,14 +30,14 @@ const Product= forwardRef((props, ref) => {
             <div className="inline" ref={ref}>
               <div className="name">{props.name}</div>
               <div className="block">
-                <span className="item price"> ${props.price}</span>
+                <span className="item price"> {props.price}</span>
               </div>
               <div className="block">
                 <span className="item sub" onClick={() => sub(props.id)}>-</span>
                 <span className="item quantity">{props.quantity}</span>
                 <span className="item add" onClick={() => add(props.id)}>+</span>  
               </div>
-              <div className="block">${props.price * props.quantity}</div>
+              <div className="block">{props.price * props.quantity}</div>
               <div className="block">
                 <span className="item remove" onClick={() => remove(props.id)}>Remove</span>
               </div>
